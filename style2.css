@@ -1,0 +1,180 @@
+/* Login Page */
+
+div.wrapper .login-form {
+    text-align: center;
+    padding: 100px;
+    max-width: 534px;
+    margin: 0 auto;
+}
+
+div.login p {
+    font-size: 13px;
+} 
+
+div.forgot1 {
+    padding: 10px;
+}
+
+div.forgot1 {
+    margin-bottom: 30px;
+}
+
+div.wrapper .login {
+    border: 1px solid #e3e3e3;
+    border-radius: 16px;
+    box-sizing: border-box;
+    font-family: Source Sans Pro;
+    margin: 5px;
+}
+
+div.wrapper .loginid {
+    padding: 05px;
+}
+
+div .loginid.text {
+    align-items: right;
+}
+
+
+/* contact us page  */
+
+div.wrapper .contact-form {
+    text-align: center;
+    padding: 100px;
+    max-width: 534px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+div.contact_us p {
+    font-size: 13px;
+} 
+
+div.wrapper .contact {
+    border: 1px solid #e3e3e3;
+    border-radius: 16px;
+    box-sizing: border-box;
+    font-family: Source Sans Pro;
+    margin: 5px;
+}
+
+div.wrapper .contact_us {
+    padding: 05px;
+}
+
+div .contact_text {
+    align-items: right;
+}
+
+
+/* about page */
+
+.about_page {
+    max-width: 784px;
+    align-items: center;
+    border: 10px solid black;
+    margin: 50px;
+    border-radius: 40px;
+}
+
+.about_page_content p {
+    font-size: 20px;
+    font-family: "Poppins",sans-serif;
+}
+
+.about_page_content h4 {
+    font-size: 30px;
+    font-family: "Raleway",sans-serif;
+}
+
+.about_page_content h1 {
+    font-size: 40px;
+    font-family: "Raleway",sans-serif;
+    text-align: center;
+}
+
+.about_page_content h2 {
+    font-size: 35px;
+    font-family: "Raleway",sans-serif;
+    text-align: center;
+    color: red;
+    text-decoration: underline;
+}
+
+.about_page_content {
+    align-items: center;
+    margin: 5px;
+    border: 5px dashed #070917;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.About_img img {
+    width: 330px;
+    height: 250px;
+}
+
+
+/* Videos */
+
+.study-images-front {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+}
+
+.Study_Materials_image {
+    width: 250px;
+    height: 250px;
+}
+
+.college-reviews {
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.videos-4 {
+    padding: 10px;
+}
+
+.study_1 {
+    display: flex;
+    border: 2px solid grey;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.Study_Materials {
+    margin-top: 50px;
+}
+
+.study_1 .section_1 {
+    display: flex;
+}
+
+.study_img {
+    border-radius: 10px;
+    text-align: left;
+    padding-right: 30px;
+}
+
+.enroll_now {
+    text-align: right;
+}
+
+.study_1 .section_1 .study_text {
+    display: grid;
+    grid-template-rows: 2;
+}
+
+.study_1 .study_text h1 {
+    color: #da722c;
+}
+
+.study_1 .study_text p {
+    font-size: 20px;
+    width: 300px;
+    border: 2px dashed grey;
+    background: rgb(240, 236, 236);
+    padding: 20px;
+}

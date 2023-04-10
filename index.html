@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHALO.ev</title>
+
+    <!-- fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Raleway:wght@300;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+    <!-- header start here -->
+
+    <header class="mainpage">
+        <div class="wrapper">
+
+            <!-- nav start here -->
+
+            <nav>
+
+                <!-- logo -->
+
+                <div class="logo">
+                    <a href="/index.html">CHALO<span style="color: rgb(255, 196, 0); font-size: 35px;">.ev</span></a>
+                </div>
+
+                <!-- menu bar -->
+
+                <ul>
+                    <li>
+                        <a href="/about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Services</a>
+                    </li>
+                    <li>
+                        <a href="/review.html">Our Work</a>
+                    </li>
+                    <li>
+                        <a href="/login.html" class="btn dark">Login</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- end of desktop navigation -->
+
+            <div class="hero-section">
+                <div class="left">
+                    <h1>Start Travelling <br /> with CHALO<span
+                            style="color: rgb(255, 196, 0); font-size: 35px;">.ev</span></h1>
+                    <p>
+                        Hi everyone this is to announce that <br> we are going to start new website <br>
+                        which is going to help you alot.
+                    </p>
+                    <a href="/Signup.html" id="signupbtn" class="btn light enrol-icon">Sign UP</a>
+                </div>
+                <div class="right">
+                    <div class="map-text">
+                        <h4>Select Your Location..</h4>
+                    </div>
+                    <div class="map-part">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4218.366587688404!2d75.7018373984066!3d31.255688185272135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391a5f5e9c489cf3%3A0x4049a5409d53c300!2sLovely%20Professional%20University!5e1!3m2!1sen!2sin!4v1681044377106!5m2!1sen!2sin"
+                            width="320" height="460" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="map-text">
+                        <a href="#" class="btn dark enrol-icon" id="book-taxi-btn">Book Your Ride</a>
+                        <!-- <button id="book-taxi-btn">Book Taxi</button> -->
+
+                        <div id="booking-modal" class="modal">
+                            <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <h2>Book an <br> E. Rikshwa</h2>
+                                <br><br>
+                                <form>
+                                    <label for="name">Name:</label>
+                                    <input type="text" id="name" name="name" required><br><br>
+                                    <label for="email">Email:</label>
+                                    <input type="email" id="email" name="email" required><br><br>
+                                    <label for="pickup">Pickup Location:</label>
+                                    <select name="pickup" id="pickup" required>
+                                        <option value="start_1">Uni Hospital</option>
+                                        <option value="start_2">BH4</option>
+                                    </select><br><br>
+
+
+                                    <label for="dropoff">Dropoff Location:</label>
+                                    <select name="pickup" id="pickup" required>
+                                        <option value="end_1">Uni Hospital</option>
+                                        <option value="end_2">BH4</option>
+                                    </select><br><br>
+                                    <input type="checkbox" name="agree" id="agree" required><label for="agree">  Price: ₹15 per person</label>
+                                    <br>
+                                    <input type="submit" value="Book" class="btn light enrol-icon ">
+                                </form>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="achievement-cards">
+                    <div class="achievement-card ride-completed">
+                        <div class="content">
+                            <div>
+                                <h3>32k</h3>
+                            </div>
+                            <p>Rides Completed</p>
+                        </div>
+                        <div class="bg">
+
+                        </div>
+                    </div>
+                    <div class="achievement-card overall-ratings">
+                        <div class="content">
+                            <div>
+                                <h3>4.7</h3>
+                                <img src="/images/Star.png" alt="" width="30px" height="30px" />
+                            </div>
+                            <p>Overall Rantings</p>
+                        </div>
+                        <div class="bg">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <!-- end of the header section -->
+    <div class="wrapper">
+        <section class="testimonials-section">
+            <div class="left">
+                <div class="testimonial-card">
+                    <div class="content">
+                        It helps a lot:)
+                    </div>
+                    <div class="info">
+                        <h4>Shaily Thakur</h4>
+                        <p class="company">Student, LPU</p>
+                    </div>
+                    <img src="images/Picsart_23-04-10_14-23-39-376.png" alt="" width="180px" height="180px" />
+                </div>
+                <div class="testimonial-card">
+                    <div class="content">
+                        Amazing work! Keep it UP!
+                    </div>
+                    <div class="info">
+                        <h4>Adhishant</h4>
+                        <p class="company">Student, LPU</p>
+                    </div>
+                    <img src="images/Picsart_23-04-10_14-24-13-571.png" alt="" width="180px" height="180px" />
+                </div>
+            </div>
+            <div class="right">
+                <h2>What our happy customer says?</h2>
+                <div class="features">
+                    <p>
+                        All students get access to all the videos and also the
+                        study materials required.
+                    </p>
+                    <p>
+                        You will also have access to a private discord channel where you
+                        can discuss your doubts.
+                    </p>
+                </div>
+                <a href="/review.html" class="btn light desktop-btn">View More</a>
+            </div>
+            <a href="/review.html" class="btn light mobile-btn">View More</a>
+        </section>
+    </div>
+    <!-- End of testimonial Section -->
+
+    <section class="courses-section">
+        <div class="wrapper">
+            <h2 class="light">Our Vehicles</h2>
+
+            <div class="course-cards">
+                <div class="course-card">
+                    <img src="images/img-golf-carts.jpg" alt="" width="240px" height="240px" style="margin-top: 15px; border: 2px solid black; border-radius: 5px;"/>
+                    <div class="info">
+                        <h3>6 People Capacity</h3>
+                        <div class="duration">60 KMs</div>
+                    </div>
+                </div>
+                <div class="course-card">
+                    <img src="images/electric-golf-car-9-seater-500x500.webp" alt="" width="240px" height="240px" style="margin-top: 15px; border: 2px solid black; border-radius: 5px;" />
+                    <div class="info">
+                        <h3>9 People Capacity</h3>
+                        <div class="duration">75 KMs</div>
+                    </div>
+                </div>
+
+            </div>
+            <a href="#" class="btn light">Know More</a>
+        </div>
+    </section>
+
+    <!-- End of courses section -->
+    <div class="wrapper">
+        <section class="app-section">
+            <h2>Get Our App</h2>
+            <p>You can use our App for better experience on smartphones.</p>
+
+            <div class="app-buttons">
+                <div class="app-btn">
+                    <img src="images/App-Store-Logo.png" alt="" width="70px" height="40px" />
+                    <span>App Store</span>
+                </div>
+
+                <div class="app-btn">
+                    <img src="images/google-play.png" alt="" width="40px" height="40px" />
+                    <span>Google Play</span>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- End of the app section -->
+
+    <footer>
+        <div class="wrapper">
+            <div class="links-container">
+                <div class="links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li>
+                            <a href="/about.html">About US</a>
+                        </li>
+                        <li>
+                            <a href="/contact.html">Contact US</a>
+                        </li>
+                        <li>
+                            <a href="/privacy.html">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="/terms.html">Terms & Conditions</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="links">
+                    <h3>More</h3>
+                    <ul>
+                        <li>
+                            <a href="/login.html">Login</a>
+                        </li>
+                        <li>
+                            <a href="#">Download</a>
+                        </li>
+                        <li>
+                            <a href="#">All Trips</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="links">
+                    <h3>Contact US</h3>
+                    <ul>
+                        <li class="email">
+                            CONTACT@CHALO.ev
+                        </li>
+                        <div class="social">
+                            <a href="#">
+                                <img src="images/Facebook_Logo.png" alt="" width="40px" height="40px" />
+                            </a>
+                            <a href="#">
+                                <img src="images/instagram-logo.png" alt="" width="40px" height="40px" />
+                            </a>
+                        </div>
+                        <form action="#">
+                            <input type="text" placeholder="Email Address">
+                            <button class="submit-btn">Subscribe</button>
+                        </form>
+                    </ul>
+                </div>
+            </div>
+            <p class="copyright">This website is Developed by CHALO.ev in 2022.</p>
+        </div>
+    </footer>
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
